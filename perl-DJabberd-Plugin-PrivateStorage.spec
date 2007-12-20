@@ -8,6 +8,7 @@ Group:		Development/Perl
 Summary:    Implement private storage, as described in XEP-0049, for DJabberd
 Source0:    ftp://ftp.perl.org/pub/CPAN/modules/by-module/DJabberd/DJabberd-Plugin-PrivateStorage-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{realname}
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
 BuildRequires: perl(File::Slurp)
 BuildRequires: perl(DBD::SQLite) 
