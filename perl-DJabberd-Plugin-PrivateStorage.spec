@@ -12,6 +12,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
 BuildRequires: perl(File::Slurp)
 BuildRequires: perl(DBD::SQLite) 
+BuildRequires: perl(DJabberd)
 BuildArch: noarch
 
 %description
