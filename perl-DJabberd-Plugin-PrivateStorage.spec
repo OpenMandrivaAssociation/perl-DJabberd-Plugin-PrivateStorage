@@ -2,7 +2,7 @@
 
 Name:		perl-%{realname}
 Version:	0.60
-Release:	4
+Release:	5
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    Implement private storage, as described in XEP-0049, for DJabberd
